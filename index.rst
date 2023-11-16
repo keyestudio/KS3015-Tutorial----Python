@@ -7,7 +7,7 @@
    home.md
    C/KS3015.md
    JAVA/JAVA.md
-   Python/KS3015.md
+   Python/Python.md
 
 
 
