@@ -15,7 +15,7 @@ And this purpose-built kit is for Raspberry Pi enthusiasts. With the help of it,
 
 |           **Product Name**            | **QTY** |                         **Picture**                          |
 | :-----------------------------------: | :-----: | :----------------------------------------------------------: |
-|         GPIO Extension Board          |    1    | <img src="media/3af182663cfe16478339230a4588f7d5.png" style="zoom:50%;" /> |
+|         GPIO Extension Board          |    1    | ![](media/3af182663cfe16478339230a4588f7d5.png) |
 |              LED - Green              |    5    | ![image-20230427120008303](media/image-20230427120008303.png) |
 |               LED - Red               |   10    | ![0cc05386fde8f322c52e1431f1bff123](media/0cc05386fde8f322c52e1431f1bff123.png) |
 |             LED - Yellow              |    5    | ![7c73c16eb685ce33673a1f78eec776bf](media/7c73c16eb685ce33673a1f78eec776bf.png) |
