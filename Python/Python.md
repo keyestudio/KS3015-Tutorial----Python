@@ -1,7 +1,8 @@
 # **KS3015 Raspberry Pi Complete RFID Starter Kit Python**
 
+## Getting Started With Python
 
-Copy Example Code Folder to Raspberry Pi
+**Copy Example Code Folder to Raspberry Pi**
 
 Place example code folder to the pi folder of Raspberry Pi. and extract the example code from pythonCode_A zip file, as shown below:
 
@@ -47,7 +48,7 @@ cd pythonCode_A python 1_HelloWorld.py
 
 
 
-## 6.Detailed Projects：
+## Projects：
 
 **Note**: 
 
@@ -5615,15 +5616,4 @@ except KeyboardInterrupt:
     GPIO.cleanup()
 ```
 
-
-
-## 7.Resource：
-
-1.  <https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/6>
-
-2.  <https://wiki.keyestudio.com/KS3001(3002,_3003,.....3012%EF%BC%89Raspberry_Pi_Complete_Device_Kit>
-
-3.  <https://www.raspberrypi.org/documentation/installation/installing-images/README.md>
-
-4.  <https://www.raspberrypi.org/software/>
 

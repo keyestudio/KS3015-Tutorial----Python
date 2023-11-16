@@ -1,6 +1,9 @@
 # KS3015 Raspberry Pi Complete RFID Starter Kit C Language
 
-# 1. Description：
+## Download code and library
+[https://fs.keyestudio.com/KS3015](https://fs.keyestudio.com/KS3015)
+
+## Description：
 
 Raspberry Pi is a small computer in the size of a credit card and at low cost. It can serve as a personal server and router. You could get a camera monitor by plugging a camera to it. Equally, the voice interactive function could be achieved if a microphone or a speaker is connected with it. 
 
@@ -8,7 +11,7 @@ What’s more, it extends 40pins out to link with sensors ans modules, which mak
 
 And this purpose-built kit is for Raspberry Pi enthusiasts. With the help of it, you could acquire knowledge of Linux, Python and other programming related skills as well as the applications of sensors and modules.
 
-# 2. Kit List：
+## Kit List：
 
 |           **Product Name**            | **QTY** |                         **Picture**                          |
 | :-----------------------------------: | :-----: | :----------------------------------------------------------: |
@@ -66,7 +69,7 @@ And this purpose-built kit is for Raspberry Pi enthusiasts. With the help of it,
 |              Screwdriver              |    1    |       ![](media/04efadf25e085be8b0f03379c4242e28.png)        |
 |     Resistance Color  Code Table      |    1    | ![417726be3c87e14a4d4b394efa52895c](media/417726be3c87e14a4d4b394efa52895c.jpeg) |
 
-# 3. Install Raspberry Pi OS System：
+## Install Raspberry Pi OS System：
 
 ### **Hardware Tool：**
 
@@ -82,7 +85,7 @@ And this purpose-built kit is for Raspberry Pi enthusiasts. With the help of it,
 
 **Windows System：**
 
-#### Install putty:
+### Install putty:
 
 Download Putty：https://www.chiark.greenend.org.uk/\~sgtatham/putty/
 
@@ -106,7 +109,7 @@ After a few seconds, click“Finish”.
 
 ![](media/ec368c3a549c09edd70f9786456d5430.png)
 
-#### **SSH Remote Login software -WinSCP**
+### **SSH Remote Login software -WinSCP**
 
 Download WinSCP: <https://winscp.net/eng/download.php>
 
@@ -129,7 +132,7 @@ Follow the below steps to finish the installation.
 
 ![](media/14ffa1e11243835d30ffb933219dcef5.png)
 
-#### **SD Card Formatter**
+### **SD Card Formatter**
 
 Format TFT card tool
 
@@ -161,7 +164,7 @@ After a few seconds, click“Finish”
 
 ![](media/df2deb7e04c25ee207e994f0d2808194.png)
 
-#### **Burn Win32DiskImager**
+### **Burn Win32DiskImager**
 
 Download Link：https://sourceforge.net/projects/win32diskimager/
 
@@ -197,7 +200,7 @@ Scan to search ip address software tool---WNetWatcher
 
 Download Link：[http://www.nirsoft.net/utils/wnetwatcher.zip](http://www.nirsoft.net/utils/wnetwatcher.zip)
 
-#### Raspberry Pi Imager
+### Raspberry Pi Imager
 
 Download Address：
 
@@ -207,7 +210,7 @@ Download Address：
 
 ![](media/3e0526d601054847d1b1feee8384dbbe.png)
 
-# 4. Install Raspberry Pi OS on Raspberry Pi 4B
+## Install Raspberry Pi OS on Raspberry Pi 4B
 
 Insert TFT RAM card to card reader, then interface card reader to USB port of computer.
 
@@ -219,7 +222,7 @@ Format TFT RAM card with SD Card Formatter software, as shown below:
 
 ![](media/82031b5354cc4edeccf2bfa7465b7c6c.png)
 
-#### **Burn System**
+### **Burn System**
 
 Burn the Raspberry Pi OS system to TFT card using Win32DiskImager software
 
@@ -235,7 +238,7 @@ The SSH login function can be activated by copying SSH file to boot category, as
 
 ![](media/ffb73310322accd671da373bb2e71945.png)
 
-#### **Eject Card Reader**
+### **Eject Card Reader**
 
 Log in system（raspberry and PC should be in the same local area network）
 
@@ -245,7 +248,7 @@ If you have screen and HDMI cable of Raspberry Pi, you could view Raspberry Pi O
 
 If not, you can enter the desktop of Raspberry Pi via SSH remote login software---WinSCP and xrdp login.
 
-#### **Remote Login**
+### **Remote Login**
 
 **Enter default user name, password and host name on WinSCP to log in.**
 
@@ -255,7 +258,7 @@ If not, you can enter the desktop of Raspberry Pi via SSH remote login software-
 
 ![](media/ff64e71b9e30df60d0b099dbc2532587.png)
 
-#### **Check ip and mac address**
+### **Check ip and mac address**
 
 ![](media/a4285a452978026c9e60c31d35974315.png)
 
@@ -273,7 +276,7 @@ Form the above figure, mac address of this Raspberry Pi is a6:32:17:61:9c, and i
 
 Since mac address never changes, you could confirm ip via it.
 
-#### **Fix ip address of Raspberry Pi**
+### **Fix ip address of Raspberry Pi**
 
 Ip address is changeable, therefore, we need to make ip address fixed for convenient use.
 
@@ -295,7 +298,7 @@ su root
 
 Firstly change ip address of the following configuration file
 
-（\#New ip address：address 192.168.1.99）
+（\##New ip address：address 192.168.1.99）
 
 Copy the above new address to terminal and press“Enter”
 
@@ -307,7 +310,7 @@ auto eth0
 
 iface eth0 inet static
 
-\#Change IP address
+\##Change IP address
 
 address 192.168.1.99
 
@@ -343,14 +346,14 @@ You could log in via fixed ip afterwards.
 
 ![](media/b4313e2d78a4289705c658a1ebbc962b.png)
 
-#### **Log in Desktop on Raspberry Pi Wirelessly**
+### **Log in Desktop on Raspberry Pi Wirelessly**
 
 In fact, we can log in desktop on Raspberry Pi Wirelessly even without screen and HDMI cable.
 
 VNC and Xrdp are commonly used to log in desktop of Raspberry Pi wirelessly.
 Let’s take example of Xrdp.
 
-#### **Install Xrdp Service in the terminal**
+### **Install Xrdp Service in the terminal**
 
 Install Command：
 
@@ -364,7 +367,7 @@ As shown below:
 
 ![](media/677a2eaa651ab0ba44af205227b92683.png)
 
-#### **Open the remote desktop connection on Windows**
+### **Open the remote desktop connection on Windows**
 
 Press WIN+R on keyboard and enter mstsc.exe
 
@@ -394,17 +397,17 @@ Click“OK”or“Enter”, you will view the desktop of Raspberry Pi OS, as sho
 
 Now, we finish the basic configuration of Raspberry Pi OS.
 
-# 5. Raspberry Pi 4B：
+## Raspberry Pi 4B：
 
 |                     **Raspberry Pi 4B**                      |                  **Raspberry Pi 4B Model**                   |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![image-20230427121016003](media/image-20230427121016003.png) | ![image-20230427121019353](media/image-20230427121019353.png) |
 
-## Hardware Interfaces：
+### Hardware Interfaces：
 
 ![](media/d232a87d73f7426894a6cafed80521a0.png)
 
-## 40-Pin GPIO Header Description
+### 40-Pin GPIO Header Description
 
 GPIO pins are divided into BCM GPIO number, physics number and WiringPi GPIO number.
 
@@ -418,7 +421,7 @@ Note: pin(3.3 V) on the left hand is square, but other pins are round. Turn Rasp
 
 Note: the largest current of each pin on Raspberry Pi 4B is 16mA and the aggregate current of all pins is not less than 51mA.
 
-# 6. GPIO Extension Board：
+## GPIO Extension Board：
 
 This extension board is led out by 40-pin headers of Raspberry Pi for convenient connection.
 
@@ -426,6 +429,18 @@ Note: the silk mark is also printed according to BCM GPIO number.
 
 ![](media/5b4223076c8f4f19ccf62039f929eafd.png)
 
-## Connection Diagram
+ Connection Diagram
 
 ![](media/9ffda4057d1a225502e509706e841b6a.png)
+
+## Resources：
+
+1.  <https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/6>
+
+2.  <https://wiki.keyestudio.com/KS3001(3002,_3003,.....3012%EF%BC%89Raspberry_Pi_Complete_Device_Kit>
+
+3.  <https://www.raspberrypi.org/documentation/installation/installing-images/README.md>
+
+4.  <https://www.raspberrypi.org/software/>
+
+5.  <https://fs.keyestudio.com/KS3015>
