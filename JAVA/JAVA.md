@@ -4,7 +4,7 @@
 
 We recommend you to learn the Python and C language tutorials about this kit firstly. We demonstrate how to install Raspberry Pi OS, fix IP address and remote login
 
-### 1.Install processing IDE
+1.Install processing IDE
 
 Processing Website：https://pi.processing.org/get-started/
 
@@ -50,7 +50,7 @@ Its interface is shown below:
 
 ![](media/a2d2aa31dfe59f7ac02d3c6f087b8766.png)
 
-### 2.Use Processing IDE
+2.Use Processing IDE
 
 Enter the code in the editor
 
@@ -75,7 +75,7 @@ A notification will appear if the input code is wrong. Don’t worry about it. C
 
 ![](media/81aaa8cd362ff420f45541ccb372984c.png)
 
-### 3.Copy Example Code to Raspberry Pi
+3.Copy Example Code to Raspberry Pi
 
 Copy the Processing-Code.zip to sketchbook folder and unzip it, as shown below:
 

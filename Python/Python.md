@@ -1503,7 +1503,7 @@ Threading module library:
 
 
 
-### Project 12：8\*8 Dot Matrix
+### Project 12：8*8 Dot Matrix
 
 Description：
 
@@ -4470,7 +4470,7 @@ if __name__ == '__main__':
 
 
 
-### Project 36：4\*4 Membrane Switch Keypad
+### Project 36：4*4 Membrane Switch Keypad
 
 Description：
 

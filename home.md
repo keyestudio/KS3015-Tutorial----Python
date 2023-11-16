@@ -71,7 +71,7 @@ And this purpose-built kit is for Raspberry Pi enthusiasts. With the help of it,
 
 ## Install Raspberry Pi OS System：
 
-### **Hardware Tool：**
+ **Hardware Tool：**
 
 -   Raspberry Pi 4B/3B/2B
 
@@ -81,11 +81,11 @@ And this purpose-built kit is for Raspberry Pi enthusiasts. With the help of it,
 
 -   Computer and other parts
 
-### **Install Software Tool**
+ **Install Software Tool**
 
 **Windows System：**
 
-### Install putty:
+## Install putty:
 
 Download Putty：https://www.chiark.greenend.org.uk/\~sgtatham/putty/
 
@@ -109,7 +109,7 @@ After a few seconds, click“Finish”.
 
 ![](media/ec368c3a549c09edd70f9786456d5430.png)
 
-### **SSH Remote Login software -WinSCP**
+ **SSH Remote Login software -WinSCP**
 
 Download WinSCP: <https://winscp.net/eng/download.php>
 
@@ -132,7 +132,7 @@ Follow the below steps to finish the installation.
 
 ![](media/14ffa1e11243835d30ffb933219dcef5.png)
 
-### **SD Card Formatter**
+ **SD Card Formatter**
 
 Format TFT card tool
 
@@ -164,7 +164,7 @@ After a few seconds, click“Finish”
 
 ![](media/df2deb7e04c25ee207e994f0d2808194.png)
 
-### **Burn Win32DiskImager**
+ **Burn Win32DiskImager**
 
 Download Link：https://sourceforge.net/projects/win32diskimager/
 
@@ -200,7 +200,7 @@ Scan to search ip address software tool---WNetWatcher
 
 Download Link：[http://www.nirsoft.net/utils/wnetwatcher.zip](http://www.nirsoft.net/utils/wnetwatcher.zip)
 
-### Raspberry Pi Imager
+## Raspberry Pi Imager
 
 Download Address：
 
@@ -222,7 +222,7 @@ Format TFT RAM card with SD Card Formatter software, as shown below:
 
 ![](media/82031b5354cc4edeccf2bfa7465b7c6c.png)
 
-### **Burn System**
+ **Burn System**
 
 Burn the Raspberry Pi OS system to TFT card using Win32DiskImager software
 
@@ -238,7 +238,7 @@ The SSH login function can be activated by copying SSH file to boot category, as
 
 ![](media/ffb73310322accd671da373bb2e71945.png)
 
-### **Eject Card Reader**
+ **Eject Card Reader**
 
 Log in system（raspberry and PC should be in the same local area network）
 
@@ -248,7 +248,7 @@ If you have screen and HDMI cable of Raspberry Pi, you could view Raspberry Pi O
 
 If not, you can enter the desktop of Raspberry Pi via SSH remote login software---WinSCP and xrdp login.
 
-### **Remote Login**
+ **Remote Login**
 
 **Enter default user name, password and host name on WinSCP to log in.**
 
@@ -258,7 +258,7 @@ If not, you can enter the desktop of Raspberry Pi via SSH remote login software-
 
 ![](media/ff64e71b9e30df60d0b099dbc2532587.png)
 
-### **Check ip and mac address**
+ **Check ip and mac address**
 
 ![](media/a4285a452978026c9e60c31d35974315.png)
 
@@ -276,7 +276,7 @@ Form the above figure, mac address of this Raspberry Pi is a6:32:17:61:9c, and i
 
 Since mac address never changes, you could confirm ip via it.
 
-### **Fix ip address of Raspberry Pi**
+ **Fix ip address of Raspberry Pi**
 
 Ip address is changeable, therefore, we need to make ip address fixed for convenient use.
 
@@ -346,14 +346,14 @@ You could log in via fixed ip afterwards.
 
 ![](media/b4313e2d78a4289705c658a1ebbc962b.png)
 
-### **Log in Desktop on Raspberry Pi Wirelessly**
+ **Log in Desktop on Raspberry Pi Wirelessly**
 
 In fact, we can log in desktop on Raspberry Pi Wirelessly even without screen and HDMI cable.
 
 VNC and Xrdp are commonly used to log in desktop of Raspberry Pi wirelessly.
 Let’s take example of Xrdp.
 
-### **Install Xrdp Service in the terminal**
+ **Install Xrdp Service in the terminal**
 
 Install Command：
 
@@ -367,7 +367,7 @@ As shown below:
 
 ![](media/677a2eaa651ab0ba44af205227b92683.png)
 
-### **Open the remote desktop connection on Windows**
+ **Open the remote desktop connection on Windows**
 
 Press WIN+R on keyboard and enter mstsc.exe
 
@@ -403,11 +403,11 @@ Now, we finish the basic configuration of Raspberry Pi OS.
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![image-20230427121016003](media/image-20230427121016003.png) | ![image-20230427121019353](media/image-20230427121019353.png) |
 
-### Hardware Interfaces：
+ Hardware Interfaces：
 
 ![](media/d232a87d73f7426894a6cafed80521a0.png)
 
-### 40-Pin GPIO Header Description
+ 40-Pin GPIO Header Description
 
 GPIO pins are divided into BCM GPIO number, physics number and WiringPi GPIO number.
 

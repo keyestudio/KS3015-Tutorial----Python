@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Self-balancing Car'
+project = 'Raspberry Pi Starter Kit'
 copyright = 'keyestudio'
 author = 'keyestudio'
 
