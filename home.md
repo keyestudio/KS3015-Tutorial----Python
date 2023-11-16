@@ -1,4 +1,4 @@
-# KS3015 Raspberry Pi Complete RFID Starter Kit C Language
+# Getting Started With Raspberry Pi Complete RFID Starter Kit 
 
 ## Download code and library
 [https://fs.keyestudio.com/KS3015](https://fs.keyestudio.com/KS3015)
