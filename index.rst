@@ -1,10 +1,13 @@
 
 .. toctree::
-   :maxdepth: 5
-   :caption: KS3015 Raspberry Pi Complete RFID Starter Kit Python
+   :maxdepth: 3
+   :caption: KS3015 Raspberry Pi Complete RFID Starter Kit
 
 
-   KS3015.md
+   home.md
+   C/KS3015.md
+   JAVA/KS3015.md
+   PythonKS3015.md
 
 
 
