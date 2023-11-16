@@ -1,4 +1,4 @@
-# **KS3015 Raspberry Pi Complete RFID Starter Kit Python**
+# **Python Tutorial**
 
 ## Getting Started With Python
 
