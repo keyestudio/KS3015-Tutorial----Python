@@ -15,7 +15,7 @@ And this purpose-built kit is for Raspberry Pi enthusiasts. With the help of it,
 
 |           **Product Name**            | **QTY** |                         **Picture**                          |
 | :-----------------------------------: | :-----: | :----------------------------------------------------------: |
-|         GPIO Extension Board          |    1    | ![](media/3af182663cfe16478339230a4588f7d5.png) |
+|         GPIO Extension Board          |    1    |       ![](media/3af182663cfe16478339230a4588f7d5.png)        |
 |              LED - Green              |    5    | ![image-20230427120008303](media/image-20230427120008303.png) |
 |               LED - Red               |   10    | ![0cc05386fde8f322c52e1431f1bff123](media/0cc05386fde8f322c52e1431f1bff123.png) |
 |             LED - Yellow              |    5    | ![7c73c16eb685ce33673a1f78eec776bf](media/7c73c16eb685ce33673a1f78eec776bf.png) |
@@ -45,7 +45,7 @@ And this purpose-built kit is for Raspberry Pi enthusiasts. With the help of it,
 |     PCF8591 A/D Converter Module      |    1    | ![99a773f39b28fa8d8d09665e67d7c8fa](media/99a773f39b28fa8d8d09665e67d7c8fa.png) |
 |            Joystick Module            |    1    | ![dc66680eb5fb489fd577c9c66d03ec15](media/dc66680eb5fb489fd577c9c66d03ec15.png) |
 |             Relay Module              |    1    | ![b0d26e6eea0e84c833f7f535fec9cf54](media/b0d26e6eea0e84c833f7f535fec9cf54.png) |
-|        0.96 Inch OLED Display         |    1    | ![image-20230427165602831](media/image-20230427165602831.png) |
+|        0.96 Inch OLED Display         |    1    |                 ![KS0271](media/KS0271.png)                  |
 |             Sound Module              |    1    | ![e315ef2757b4154299e38350c4e93462](media/e315ef2757b4154299e38350c4e93462.png) |
 |           PIR Motion Sensor           |    1    | ![image-20230427165555970](media/image-20230427165555970.png) |
 |        MQ-2 Analog Gas Sensor         |    1    | ![23c8cf53545ee20d4be213d977e4ee07](media/23c8cf53545ee20d4be213d977e4ee07.png) |

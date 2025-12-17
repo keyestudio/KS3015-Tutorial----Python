@@ -3128,7 +3128,7 @@ Components：
 | ![image-20230423090833627](media/image-20230423090833627.png) | ![image-20230423090837281](media/image-20230423090837281.png) | ![image-20230423090840034](media/image-20230423090840034.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Raspberry Pi*1                                               | GPIO Extension Board*1                                       | 40 pin Colorful Jumper Wires*1                               |
-| ![image-20230423090849362](media/image-20230423090849362.png) | ![image-20230423090853058](media/image-20230423090853058.png) | ![image-20230423090856338](media/image-20230423090856338.png) |
+| ![image-20230423090849362](media/image-20230423090849362.png) | ![KS0271](media/KS0271.png)                                  | ![image-20230423090856338](media/image-20230423090856338.png) |
 | Breadboard*1                                                 | OLED Display*1                                               | Jumper Wires                                                 |
 
 
@@ -3151,7 +3151,7 @@ Schematic Diagram：
 
 ![](media/a24a50c17ca27d35d2287305abdbd3dd.png)
 
-![](media/b36a192bdceb733507fa59bddac5f223.png)
+![](media/oledjiexian.png)
 
 Install Luma.oled Library：
 
@@ -5615,5 +5615,4 @@ try:
 except KeyboardInterrupt:
     GPIO.cleanup()
 ```
-
 

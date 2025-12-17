@@ -1851,7 +1851,7 @@ OLED display is the most commonly used for cellphone screen, thanks to its chara
 | ![8352708d7233ac1da810b9c6bc9f3174](media/8352708d7233ac1da810b9c6bc9f3174.png) | ![3af182663cfe16478339230a4588f7d5](media/3af182663cfe16478339230a4588f7d5.png) | ![e786c181d83b5f7f5319d5b4db98c97e](media/e786c181d83b5f7f5319d5b4db98c97e.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Raspberry Pi*1                                               | GPIO Extension Board*1                                       | 40 pin Colorful Jumper Wires*1                               |
-| ![a2f627709501bdfbc2cd5c3e4a1800f8](media/a2f627709501bdfbc2cd5c3e4a1800f8.png) | ![3b76623d7049e0084be9aad0d58db59f](media/3b76623d7049e0084be9aad0d58db59f.jpeg) | ![](media/10d87dd4cd26593bab967167fa8087fd.png)              |
+| ![a2f627709501bdfbc2cd5c3e4a1800f8](media/a2f627709501bdfbc2cd5c3e4a1800f8.png) | ![KS0271](media/KS0271.png)                                  | ![](media/10d87dd4cd26593bab967167fa8087fd.png)              |
 | Breadboard*1                                                 | OLED Display*1                                               | Jumper Wires                                                 |
 
  Component Knowledge
@@ -1872,7 +1872,7 @@ OLED display is the most commonly used for cellphone screen, thanks to its chara
 
 ![](media/a24a50c17ca27d35d2287305abdbd3dd.png)
 
-![](media/b36a192bdceb733507fa59bddac5f223.png)
+![](media/oledjiexian.png)
 
  Run Example Code：
 

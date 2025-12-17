@@ -4,10 +4,10 @@
    :caption: KS3015 Raspberry Pi Complete RFID Starter Kit
 
 
-   home.md
-   C/KS3015.md
-   JAVA/JAVA.md
-   Python/Python.md
+   docs/home.md
+   docs/C/KS3015.md
+   docs/JAVA/JAVA.md
+   docs/Python/Python.md
 
 
 
